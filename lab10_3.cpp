@@ -10,11 +10,11 @@
 using namespace std;
 int main()
 {
-        int count = 0;
-        float sum = 0;
-        float sum_of_square = 0;
+        int count ;
+        float sum ;
+        float sum_of_square ;
         string textline;
-        ifstream source("data.txt");
+        ifstream source("score.txt");
         while (getline(source, textline))
         {
                 sum += stof(textline);
